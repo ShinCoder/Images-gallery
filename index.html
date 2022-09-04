@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta name="charset" content="UTF-8">
+    <meta name="keywords" content="image, gallery, html, css, javascript">
+    <meta name="description" content="Create image gallery with html + css + js">
+    <meta name="author" content="ShinCoder">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Image gallery</title>
+    <link rel="stylesheet" href="Image-gallery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+</head>
+
+<body id="home">
+    <header>
+        <div class="label"><a href="#home">Bosses gallery</a></div>
+
+        <div class="navbar">
+            <div class="navbar-item">
+                <div class="dropdown">
+                    <div class="dropdown-select">Vanilla</div>
+                    <div class="dropdown-list">
+                        <div class="dropdown-item"><a href="#king-slime">King Slime</a></div>
+                        <div class="dropdown-item"><a href="#eye-of-cthulhu">Eye of Cthulhu</a></div>
+                        <div class="dropdown-item"><a href="#eater-of-worlds">Eater of Worlds</a></div>
+                        <div class="dropdown-item"><a href="#brain-of-cthulhu">Brain of Cthulhu</a></div>
+                        <div class="dropdown-item"><a href="#queen-bee">Queen Bee</a></div>
+                        <div class="dropdown-item"><a href="#skeletron">Skeletron</a></div>
+                        <div class="dropdown-item"><a href="#deerclops">Deerclops</a></div>
+                        <div class="dropdown-item"><a href="#wall-of-flesh">Wall of Flesh</a></div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="navbar-item">
+                <div class="dropdown">
+                    <div class="dropdown-select">Modded</div>
+                    <div class="dropdown-list">
+                        <div class="dropdown-item">
+                            <div class="dropdown">
+                                <a href="#calamity" class="dropdown-select">Calamity</a>
+                                <div class="dropdown-list">
+                                    <div class="dropdown-item"><a href="#desert-scourge">Desert Scourge</a></div>
+                                </div>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="navbar-item">About</div>
+        </div>
+    </header>
+
+    <div class="content" id="content">
+        <section id="vanilla">
+            <h2>Vanilla Bosses</h2>
+            <div class="grid-container">
+                <div class="gallery-cell" id="king-slime">
+                    <div class="img-container">
+                        <a href="https://terraria.wiki.gg/wiki/King_Slime" target="_blank">
+                            <img src="https://terraria.wiki.gg/images/9/93/King_Slime.gif" alt="King Slime">
+                        </a>
+                    </div>
+                    <p class="img-description">King Slime</p>
+                </div>
+                <div class="gallery-cell" id="eye-of-cthulhu">
+                    <div class="img-container">
+                        <a href="https://terraria.wiki.gg/wiki/Eye_of_Cthulhu" target="_blank">
+                            <img src="https://terraria.wiki.gg/images/7/70/Eye_of_Cthulhu_%28Phase_1%29.gif"
+                                alt="Eye of Cthulhu">
+                        </a>
+                    </div>
+                    <p class="img-description">Eye of Cthulhu</p>
+                </div>
+                <div class="gallery-cell" id="eater-of-worlds">
+                    <div class="img-container">
+                        <a href="https://terraria.wiki.gg/wiki/Eater_of_Worlds" target="_blank">
+                            <img src="https://terraria.wiki.gg/images/2/2d/Eater_of_Worlds.png" alt="Eater of Worlds">
+                        </a>
+                    </div>
+                    <p class="img-description">Eater of Worlds</p>
+                </div>
+                <div class="gallery-cell" id="brain-of-cthulhu">
+                    <div class="img-container">
+                        <a href="https://terraria.wiki.gg/wiki/Brain_of_Cthulhu" target="_blank">
+                            <img src="https://terraria.wiki.gg/images/1/18/Brain_of_Cthulhu_%28First_Phase%29.gif"
+                                alt="Brain of Cthulhu">
+                        </a>
+                    </div>
+                    <p class="img-description">Brain of Cthulhu</p>
+                </div>
+                <div class="gallery-cell" id="queen-bee">
+                    <div class="img-container">
+                        <a href="https://terraria.wiki.gg/wiki/Queen_Bee" target="_blank">
+                            <img src="https://terraria.wiki.gg/images/6/60/Queen_Bee.gif" alt="Queen Bee">
+                        </a>
+                    </div>
+                    <p class="img-description">Queen Bee</p>
+                </div>
+                <div class="gallery-cell" id="skeletron">
+                    <div class="img-container">
+                        <a href="https://terraria.wiki.gg/wiki/Skeletron" target="_blank">
+                            <img src="https://terraria.wiki.gg/images/a/a3/Skeletron_Head.png" alt="Skeletron">
+                        </a>
+                    </div>
+                    <p class="img-description">Skeletron</p>
+                </div>
+                <div class="gallery-cell" id="deerclops">
+                    <div class="img-container">
+                        <a href="https://terraria.wiki.gg/wiki/Deerclops" target="_blank">
+                            <img src="https://terraria.wiki.gg/images/8/85/Deerclops.png" alt="Deerclops">
+                        </a>
+                    </div>
+                    <p class="img-description">Deerclops</p>
+                </div>
+                <div class="gallery-cell" id="wall-of-flesh">
+                    <div class="img-container">
+                        <a href="https://terraria.wiki.gg/wiki/Wall_of_Flesh" target="_blank">
+                            <img src="https://terraria.wiki.gg/images/c/c0/Wall_of_Flesh.gif" alt="Wall of Flesh">
+                        </a>
+                    </div>
+                    <p class="img-description">Wall of Flesh</p>
+                </div>
+            </div>
+        </section>
+        <section id="calamity">
+            <h2>Calamity Bosses</h2>
+            <div class="grid-container">
+                <div class="gallery-cell" id="desert-scourge">
+                    <div class="img-container">
+                        <a href="https://calamitymod.wiki.gg/wiki/Desert_Scourge" target="_blank">
+                            <img src="https://calamitymod.wiki.gg/images/thumb/e/e0/Desert_Scourge.png/300px-Desert_Scourge.png" alt="Desert Scourge">
+                        </a>
+                    </div>
+                    <p class="img-description">Desert Scourge</p>
+                </div>
+    </div>
+
+    <script src="Image-gallery.js"></script>
+</body>
+
+</html>
